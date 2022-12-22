@@ -1,4 +1,4 @@
-# Kubernetes Cluster v1.25.x
+# Kubernetes Cluster with NFS Server
 #### Requirements:
 
  - VirtualBox 6.1+:  https://www.virtualbox.org/wiki/Downloads 

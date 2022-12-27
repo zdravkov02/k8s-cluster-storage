@@ -27,7 +27,7 @@ The second NIC (Bridge mode) of the nodes has a static IP address that belongs t
 
 #### Warning: Setting the networks in the above way brings various security vulnerabilities and is STRONGLY NON-RECOMMENDED for production environment! However, it can be used for testing and exercises at home as well as when working with just a regular laptop.
 
-Information about the installed software can be found in the box specification as well as in the node-preparation.sh script.
+Information about the installed software can be found in the box specification.
 
 ### Storage Information
 

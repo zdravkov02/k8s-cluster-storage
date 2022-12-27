@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.define "nfs" do |nfs|
     nfs.vm.box = "merev/debian-11"
-#    nfs.vm.box_version = "1.1"
+    nfs.vm.box_version = "1"
     nfs.vm.hostname = "nfs-server.k8s"
     nfs.vm.network "public_network", ip: "192.168.1.130"
     nfs.vm.synced_folder "shared/", "/shared"

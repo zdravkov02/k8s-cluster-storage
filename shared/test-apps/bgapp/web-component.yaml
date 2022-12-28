@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: prod-container
-        image: web-component
+        image: merev/web-component
         volumeMounts:
         - mountPath: /etc/apache2
           name: content

@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: prod-container
-        image: shekeriev/k8s-producer:latest
+        image: merev/k8s-producer:latest
         ports:
         - containerPort: 5000
         resources:
@@ -73,7 +73,7 @@ spec:
     spec:
       containers:
       - name: cons-container
-        image: shekeriev/k8s-consumer:latest
+        image: merev/k8s-consumer:latest
         ports:
         - containerPort: 5000
         resources:

@@ -1,4 +1,4 @@
-# Kubernetes Cluster blabla
+# Kubernetes Cluster
 This is an automated solution for K8S cluster + NFS Storage created through `kubeadm` and Vagrant. Follow the steps below:
  - clone the repository; 
  - open the directory in terminal;

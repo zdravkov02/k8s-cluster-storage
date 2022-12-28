@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: prod-container
-        image: db-component
+        image: merev/db-component
         env:
           - name: MYSQL_ROOT_PASSWORD
             value: "12345"
